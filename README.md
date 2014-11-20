@@ -128,7 +128,7 @@ Data Source: Nominet
 Notes: Only .UK domains.
 
 #### GoldenRegistrar
-If the registrar has 100% success rate at correctly registering domains. The registered owner type must be UK School.
+If the registrar has 100% success rate at correctly registering **all** domains. The registered owner type **must** be UK School.
 
 Field Type: boolean
 
