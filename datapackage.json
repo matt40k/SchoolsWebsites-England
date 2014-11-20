@@ -1,7 +1,7 @@
 {
 	"title": "SchoolsWebsites-England",
 	"name": "schoolswebsites-england",
-	"description" : "Data analysis on URLs in EduBase",
+	"description" : "Data analysis on URLs in EduBase as of Nov-14",
 	"licenses": [
 				{
 					"id": "odc-pddl",
@@ -19,8 +19,20 @@
 			"schema": {
 				"fields": [
 					{
-						"name": "school_id",
+						"name": "School_ID",
 						"type": "integer"
+					},
+					{
+						"name": "LANumber",
+						"type": "integer"
+					},
+					{
+						"name": "EstablishmentNumber",
+						"type": "integer"
+					},
+					{
+						"name": "LA",
+						"type": "string"
 					},
 					{
 						"name": "Establishment",
@@ -29,6 +41,10 @@
 					{
 						"name": "WebSiteAddress",
 						"type": "string"
+					},
+					{
+						"name": "Size",
+						"type": "integer"
 					},
 					{
 						"name": "GoogleAnalytics",
@@ -43,11 +59,11 @@
 						"type": "string"
 					},
 					{
-						"name": "Registered Owner",
+						"name": "RegisteredOwner",
 						"type": "string"
 					},
 					{
-						"name": "Registered Owner Type",
+						"name": "RegisteredOwnerType",
 						"type": "string"
 					},
 					{
@@ -55,11 +71,11 @@
 						"type": "string"
 					},
 					{
-						"name": "Golden registrar",
+						"name": "GoldenRegistrar",
 						"type": "string"
 					},
 					{
-						"name": "Registrar School count",
+						"name": "RegistrarSchoolCount",
 						"type": "integer"
 					},
 					{
@@ -67,7 +83,7 @@
 						"type": "string"
 					},
 					{
-						"name": "HTML type",
+						"name": "HTMLtype",
 						"type": "string"
 					},
 					{
@@ -75,7 +91,7 @@
 						"type": "integer"
 					},
 					{
-						"name": ".uk domain",
+						"name": "UKDomain",
 						"type": "string"
 					},
 					{
@@ -89,18 +105,6 @@
 					{
 						"name": "Northing",
 						"type": "integer"
-					},
-					{
-						"name": "Establishment_Number",
-						"type": "integer"
-					},
-					{
-						"name": "LA_Number",
-						"type": "integer"
-					},
-					{
-						"name": "LA",
-						"type": "string"
 					},
 					{
 						"name": "HeadName",
