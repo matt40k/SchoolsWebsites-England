@@ -5,7 +5,7 @@
   "resources": [
     {
       "path": "SchoolsWebsites-England.csv",
-	  "url": "https://github.com/matt40k/SchoolsWebsites-England/blob/master/SchoolsWebsites-England.csv",
+      "url": "https://raw.githubusercontent.com/matt40k/SchoolsWebsites-England/master/SchoolsWebsites-England.csv",
       "mediatype": "text/csv",
       "schema": {
         "fields": [
