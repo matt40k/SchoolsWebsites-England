@@ -1,5 +1,4 @@
-Technicial data on Schools websites in England
-=======================
+# Technical data on Schools websites in England
 
 A extract from [EduBase](http://www.education.gov.uk/edubase/home.xhtml) by [Department 
 for Education](https://www.gov.uk/government/organisations/department-for-education) was taken on Nov-14.
@@ -7,6 +6,14 @@ for Education](https://www.gov.uk/government/organisations/department-for-educat
 The IPv6 scores was based on the [IPv6 health check](https://www.mythic-beasts.com/ipv6/health-check) by [Mythic Beasts](https://www.mythic-beasts.com/).
 
 Domain registration look up was performed by using [WHOIS tool](http://www.nominet.org.uk/whois/) by [Nominet](http://www.nominet.org.uk/).
+
+### Tools used
+* Microsoft Excel
+* Microsoft SQL Server
+* PowerShell
+* Visual Studio (C#)
+
+## Data fields
 
 #### School_ID
 Surrogate key.
