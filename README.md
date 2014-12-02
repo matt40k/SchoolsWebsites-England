@@ -23,6 +23,14 @@ EstablishmentNumber | integer | [EduBase](http://www.education.gov.uk/edubase/ho
 LA | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
 Establishment | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
 WebSiteAddress | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+TypeOfEstablishment | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+PhaseOfEducation | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+OfstedSpecialMeasures | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+InvestorInPeople | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+NumberOfPupils | integer | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+ReligiousCharacter | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+Gender | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
+Boarders | string | [EduBase](http://www.education.gov.uk/edubase/home.xhtml)
 Size | integer | HTML request
 GoogleAnalytics | boolean | HTML request
 IE6Support | boolean | HTML request
@@ -62,6 +70,30 @@ Establishment (school) name.
 Establishment (school) website url (including protocol).
 
 Notes: Minor data cleansing
+
+#### TypeOfEstablishment
+Type of Establishment (Community School\Academy Converter\etc)
+
+#### PhaseOfEducation
+Establishment (school) Phase of Education (Primary \ Secondary)
+
+#### OfstedSpecialMeasures
+Has Ofsted put the establishment (school) in Special Measures 
+
+#### InvestorInPeople
+Is the establishment (school) commited to [Investor In People](http://www.investorsinpeople.co.uk/)
+
+#### NumberOfPupils
+Number of Pupils enrol at the establishment (school)
+
+#### ReligiousCharacter
+Religious Character
+
+#### Gender
+What gender does the establishment (school) accept onroll (boys\girls only or mixed)
+
+#### Boarders
+Does the establishment (school) accept boarders who live onsite
 
 #### Size
 Disc size of raw HTML code for Establishment (school) website homepage in bytes.
@@ -116,10 +148,10 @@ If the establishment (school) website is a .UK domain.
 Establishment (school) post code.
 
 #### Easting
-Establishment (school) post code.
+Establishment (school) easting.
 
 #### Northing
-Establishment (school) post code.
+Establishment (school) northing.
 
 #### HeadName
 Establishment (school) HeadTeacher name.

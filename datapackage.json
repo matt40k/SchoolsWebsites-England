@@ -43,6 +43,38 @@
 						"type": "string"
 					},
 					{
+						"name": "TypeOfEstablishment",
+						"type": "string"
+					},
+					{
+						"name": "PhaseOfEducation",
+						"type": "string"
+					},
+					{
+						"name": "OfstedSpecialMeasures",
+						"type": "string"
+					},
+					{
+						"name": "InvestorInPeople",
+						"type": "string"
+					},
+					{
+						"name": "NumberOfPupils",
+						"type": "integer"
+					},
+					{
+						"name": "ReligiousCharacter",
+						"type": "string"
+					},
+					{
+						"name": "Gender",
+						"type": "string"
+					},
+					{
+						"name": "Boarders",
+						"type": "string"
+					},
+					{
 						"name": "Size",
 						"type": "integer"
 					},
