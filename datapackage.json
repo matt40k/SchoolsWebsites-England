@@ -13,7 +13,7 @@
 	"resources": [
 		{
 			"path": "SchoolsWebsites-England.csv",
-			"url": "https://raw.githubusercontent.com/matt40k/SchoolsWebsites-England/master/SchoolsWebsites-England.csv",
+			"url": "https://raw.githubusercontent.com/matt40k/SchoolsWebsites-England/master/GeoPoint_dev.csv",
 			"mediatype": "text/csv",
 			"format": "csv",
 			"schema": {
@@ -137,6 +137,10 @@
 					{
 						"name": "Northing",
 						"type": "integer"
+					},
+					{
+						"name": "geopoint",
+						"type": "geopoint"
 					},
 					{
 						"name": "HeadName",
